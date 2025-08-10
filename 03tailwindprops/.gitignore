@@ -1,0 +1,33 @@
+# Ignore build and node_modules
+dist/
+node_modules/
+
+# Ignore config and setup files
+vite.config.js
+tailwind.config.js
+postcss.config.js
+eslint.config.js
+
+# Ignore package files
+package.json
+package-lock.json
+
+# Ignore static asset
+vite.svg
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
